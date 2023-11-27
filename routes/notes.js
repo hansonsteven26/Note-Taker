@@ -30,9 +30,6 @@ notes.delete('/:id', (req, res) => {
   readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
-      if (!noteId) {
-        return res.status(404).json('Note does not exist');
-      }
       // Make a new array of all notes except the one with the ID provided in the URL
       const result = json.filter((note) => note.note_id !== noteId);
       // Save that array to the filesystem
