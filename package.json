@@ -1,28 +1,15 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "Take notes with this application",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hansonsteven26/Note-Taker.git"
-  },
-  "keywords": [
-    "note",
-    "express",
-    "note-taker"
-  ],
-  "author": "Steven Hanson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hansonsteven26/Note-Taker/issues"
-  },
-  "homepage": "https://github.com/hansonsteven26/Note-Taker#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "uuidv4": "^6.2.13"
+    "express": "^4.18.2"
   }
 }
